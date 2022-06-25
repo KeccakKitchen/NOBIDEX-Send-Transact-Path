@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gradient-bg-welcome {
+  background-color:#ffffff;
+  background-image: 
+    radial-gradient(at 0% 0%, rgb(255, 255, 255) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, rgb(255, 255, 255) 0, transparent 50%), 
+    radial-gradient(at 100% 0%, rgb(255, 255, 255) 0, transparent 50%);
+}
+
+.gradient-bg-services {
+  background-color:#ffffff;
+  background-image: 
+    radial-gradient(at 0% 0%, rgb(255, 255, 255) 0, transparent 50%), 
+    radial-gradient(at 50% 100%, rgb(255, 255, 255) 0, transparent 50%);
+}
+
+.gradient-bg-transactions {
+  background-color: #ffffff;
+  background-image: 
+    radial-gradient(at 0% 100%, rgb(255, 255, 255) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, rgb(255, 255, 255) 0, transparent 50%);
+}
+
+.gradient-bg-footer {
+  background-color: #ffffff;
+  background-image: 
+    radial-gradient(at 0% 100%, rgb(255, 255, 255) 0, transparent 53%), 
+    radial-gradient(at 50% 150%, rgb(255, 255, 255) 0, transparent 50%);
+}
+
+.blue-glassmorphism {
+  background: rgb(0, 22, 218);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(3, 0, 151, 0.781);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 5px solid rgba(0, 0, 0, 0.397);
+}
+
+.black-glassmorphism {
+  background: rgb(255, 255, 255);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(2, 0, 124, 0.651);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 0px solid rgba(0, 0, 0, 0.397);
+}
+
+.red-glassmorphism {
+  background: rgba(0, 0, 0, 0.466);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(2, 0, 124, 0.651);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.397);
+}
+
+.sea-glassmorphism {
+  background: rgb(24, 82, 150);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgb(2, 0, 124);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 0px solid rgba(0, 0, 0, 0.397);
+}
+
+/* white glassmorphism */
+.white-glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.eth-card {
+  background-color:#1000eb;
+  background-image: 
+    radial-gradient(at 83% 67%, rgb(35, 112, 255) 0, transparent 58%), 
+    radial-gradient(at 67% 20%, rgb(89, 86, 255) 0, transparent 59%), 
+    radial-gradient(at 88% 35%, hsla(222,81%,65%,1) 0, transparent 50%), 
+    radial-gradient(at 31% 91%, rgb(84, 53, 255) 0, transparent 52%), 
+    radial-gradient(at 27% 71%, rgb(77, 94, 255) 0, transparent 49%), 
+    radial-gradient(at 74% 89%, rgb(49, 66, 224) 0, transparent 51%), 
+    radial-gradient(at 53% 75%, rgb(5, 255, 230) 0, transparent 45%);
+}
+
+.text-gradient {
+  background-color: rgb(7, 31, 77);
+  background-image: radial-gradient(at 4% 36%, rgb(31, 27, 255) 0, transparent 53%), radial-gradient(at 100% 60%, rgb(0, 0, 0) 0, transparent 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
