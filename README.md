@@ -15,4 +15,4 @@ $ npm run dev
 ```bash
 http://localhost:3000/
 ```
-- : To access this simple web3.0 project.
+To access this simple web3.0 project.
