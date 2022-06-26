@@ -16,3 +16,20 @@ $ npm run dev
 http://localhost:3000/
 ```
 To access this simple web3.0 project.
+
+When there's a notification:
+````
+> metachain@0.0.0 dev
+> vite
+
+'vite' is not recognized as an internal or external command,
+operable program or batch file.
+````
+try to install the packages to make it run / work
+````bash
+npm install or npm i
+````
+Then
+````bash
+npm run dev
+````
