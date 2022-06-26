@@ -17,6 +17,8 @@ http://localhost:3000/
 ```
 To access this simple web3.0 project.
 
+-----
+
 When there's a notification:
 ````
 > metachain@0.0.0 dev
