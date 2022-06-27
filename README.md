@@ -27,11 +27,15 @@ When there's a notification:
 'vite' is not recognized as an internal or external command,
 operable program or batch file.
 ````
-try to install the packages to make it run / work
+try to install the packages to make it run / work.
+in path 
+```
+$ \NOBIDEX-Send-Transact-Path\client
+````
 ````bash
 npm install or npm i
 ````
-Then
+Then do it again.
 ````bash
 npm run dev
 ````
