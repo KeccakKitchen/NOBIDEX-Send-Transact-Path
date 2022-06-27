@@ -27,8 +27,7 @@ When there's a notification:
 'vite' is not recognized as an internal or external command,
 operable program or batch file.
 ````
-try to install the packages to make it run / work.
-in path 
+try to install the packages to make it run / work in path 
 ```
 $ \NOBIDEX-Send-Transact-Path\client
 ````
